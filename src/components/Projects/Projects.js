@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import leaf from "../../Assets/Projects/leaf.svg";
+import emotion from "../../Assets/Projects/emotion.svg";
+import editor from "../../Assets/Projects/codeEditor.svg";
+import chatify from "../../Assets/Projects/chatify.svg";
+import suicide from "../../Assets/Projects/suicide.svg";
+import bitsOfCode from "../../Assets/Projects/blog.svg";
 
 function Projects() {
   return (
@@ -26,7 +26,7 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Portfolio-Nawapat"
-              description="****Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="A Project that professor want us to do our homework by using React and Node.js for make Web Application about a portfolio."
               ghLink="https://github.com/Nwpatt/Portfolio-Nawapat"
               // demoLink="https://chatify-49.web.app/"
             />
@@ -36,8 +36,8 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title=" React-Workshop"
-              description="*****My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              title="React-Workshop"
+              description="Workshop from professor for teach us how to use React and Node.js to being a programmer with this skill."
               ghLink="https://github.com/Nwpatt/React-Workshop"
               // demoLink="https://blogs.soumya-jit.tech/"
             />
@@ -48,7 +48,7 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title=" react_nwpatt_kongruksiam "
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              description="Online course from youtube channel name 'Kongruksiam'. He teaches about how to use React like a professional uses. I'm learning this course and practice about writing codes from React and Node.js"
               ghLink="https://github.com/Nwpatt/react_nwpatt_kongruksiam"
               // demoLink="https://editor.soumya-jit.tech/"              
             />
@@ -59,7 +59,7 @@ function Projects() {
               imgPath={leaf}
               isBlog={false}
               title="carbonX"
-              description="****Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              description="This project is make for our first competition with organization about carbon credits and we got 5th runner up from this competition."
               ghLink="https://github.com/pongkitkkpk/carbonX"
               demoLink="https://stevecarbonx.000webhostapp.com/SteveCarbonx/forms/homepage/home.php#"
             />
@@ -69,9 +69,9 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="github-desktop-project"
+              description="Workshop from professor for teach us how to use Github in Desktop Application to being a programmer with this skill."
+              ghLink="https://github.com/Nwpatt/github-desktop-project.git"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
@@ -80,10 +80,9 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="WebApp.EnET-C"
+              description="Workshop from professor for teach us about HTML and PHP for made Web Application and being a programmer with this skill."
+              ghLink="https://github.com/Nwpatt/WebApp.EnET-C.git"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
